@@ -1,0 +1,10 @@
+1. Install ollama from its website.
+2. Add the ollama installed path to environment system variables.
+3. IN VS CODE
+   1. In terminal,
+      1.1 Run command pip install requirements.txt
+      1.2 Run command ollama --version
+      1.3 Run command ollama pull llama3.2:1b
+      1.4 Run command fastapi dev main.py
+      Wait until it shows "Application startup complete."
+      Click on the link http://127.0.0.1:8000/docs
